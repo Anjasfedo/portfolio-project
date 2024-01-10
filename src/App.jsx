@@ -6,12 +6,12 @@ import MyTech from "./components/sections/MyTech";
 
 function App() {
     return (
-        <div className="bg-[#1D1CE5] relative h-fit flex flex-col">
+        <div className="relative h-fit flex flex-col">
             <Header />
-            <main className="h-fit">
-                <Background />
-                <div className="max-w-7xl mx-auto absolute inset-0">
-                    <div className="flex flex-col items-center z-10">
+            <main>
+                <div className="relative">
+                    <Background />
+                    <div className="flex flex-col items-center z-10 w-full">
                         <AboutMe />
                         <MyTech />
                     </div>
