@@ -19,7 +19,7 @@ import { GrMysql } from "react-icons/gr";
 const MySkills = () => {
     return (
         <div
-            className="space-y-2 text-center bg-slate-950 p-2 h-screen w-full border-t border-solid border-violet-950 pt-14"
+            className="space-y-2 text-center bg-slate-950 pb-8 lg:h-screen w-full border-t border-solid border-violet-950 pt-10"
             id="mySkills"
         >
             <div className="flex flex-col justify-center items-center gap-y-8">
