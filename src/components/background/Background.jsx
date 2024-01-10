@@ -13,8 +13,8 @@ const Background = () => {
             <div className={cn("fixed inset-0 bg-[#090580] -z-10")} />
             <div
                 className={cn(
-                    "bg-black fixed inset-0 transition-opacity duration-[3000ms]",
-                    !showBackground ? "opacity-100" : "opacity-0"
+                    "bg-black fixed inset-0 transition-all duration-[5000ms]",
+                    !showBackground ? "opacity-100 z-50" : "opacity-0 -z-10"
                 )}
             />
         </>

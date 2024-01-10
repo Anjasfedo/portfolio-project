@@ -2,18 +2,18 @@ import Background from "./components/background/Background";
 import AboutMe from "./components/sections/AboutMe";
 import Footer from "./components/sections/Footer";
 import Header from "./components/sections/Header";
-import MyTech from "./components/sections/MyTech";
+import MySkills from "./components/sections/MySkills";
 
 function App() {
     return (
         <div className="relative h-fit flex flex-col">
             <Header />
-            <main>
-                <div className="relative">
+            <main className="">
+                <div className="relative ">
                     <Background />
-                    <div className="flex flex-col items-center z-10 w-full">
+                    <div className="flex flex-col items-center  z-10 w-full">
                         <AboutMe />
-                        <MyTech />
+                        <MySkills />
                     </div>
                 </div>
             </main>
