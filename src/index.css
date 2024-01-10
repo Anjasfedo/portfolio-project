@@ -2,13 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
 
 * {
-  font-family: 'Poppins', sans-serif;
-  color: white;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+.poppins {
+    font-family: "Poppins", sans-serif;
 }
 
 html {
-  scroll-behavior:  smooth;
+    scroll-behavior: smooth;
 }
