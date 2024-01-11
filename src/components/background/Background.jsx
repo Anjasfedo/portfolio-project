@@ -10,7 +10,7 @@ const Background = () => {
 
     return (
         <>
-            <div className={cn("fixed inset-0 bg-[#090580] -z-10")} />
+            <div className={cn("fixed inset-0 bg-[#090580] -z-10 w-screen")} />
             <div
                 className={cn(
                     "bg-black fixed inset-0 transition-all duration-[5000ms]",

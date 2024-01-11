@@ -9,9 +9,9 @@ function App() {
         <div className="relative h-fit flex flex-col">
             <Header />
             <main className="">
-                <div className="relative ">
+                <div className="relative">
                     <Background />
-                    <div className="flex flex-col items-center  z-10 w-full">
+                    <div className="flex flex-col items-center z-10">
                         <AboutMe />
                         <MySkills />
                     </div>

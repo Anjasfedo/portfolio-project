@@ -8,7 +8,6 @@ import {
     SiLaravel,
     SiExpress,
     SiVercel,
-    SiMysql,
     SiMongodb,
     SiLaragon,
     SiFirebase,
@@ -19,7 +18,7 @@ import { GrMysql } from "react-icons/gr";
 const MySkills = () => {
     return (
         <div
-            className="space-y-2 text-center bg-slate-950 pb-8 lg:h-screen w-full border-t border-solid border-violet-950 pt-10"
+            className="space-y-2 text-center bg-slate-950 pb-8 w-full px-10 lg:h-screen border-t border-solid border-violet-950 pt-10"
             id="mySkills"
         >
             <div className="flex flex-col justify-center items-center gap-y-8">
@@ -29,7 +28,7 @@ const MySkills = () => {
                 <div className="flex flex-col gap-y-10">
                     <div className="flex flex-col gap-y-4">
                         <h1 className="text-2xl font-bold">Lenguages</h1>
-                        <div className="flex gap-x-10 gap-y-4 grow flex-wrap mx-72 justify-center items-center">
+                        <div className="flex gap-x-10 gap-y-4 grow flex-wrap justify-center items-center">
                             <span className="flex items-center gap-2 text-lg font-semibold">
                                 <FaHtml5 className="text-2xl" />
                                 <p>HTML</p>
@@ -54,7 +53,7 @@ const MySkills = () => {
                     </div>
                     <div className="flex flex-col gap-y-4">
                         <h1 className="text-2xl font-bold">Frameworks</h1>
-                        <div className="flex gap-x-10 gap-y-4 grow flex-wrap mx-72 justify-center items-center">
+                        <div className="flex gap-x-10 gap-y-4 grow flex-wrap justify-center items-center">
                             <span className="flex items-center gap-2 text-lg font-semibold">
                                 <SiReact className="text-2xl" />
                                 <p>React.js</p>
@@ -83,7 +82,7 @@ const MySkills = () => {
                     </div>
                     <div className="flex flex-col gap-y-4">
                         <h1 className="text-2xl font-bold">Others</h1>
-                        <div className="flex gap-x-10 gap-y-4 grow flex-wrap mx-72 justify-center items-center">
+                        <div className="flex gap-x-10 gap-y-4 grow flex-wrap justify-center items-center">
                             <span className="flex items-center gap-2 text-lg font-semibold">
                                 <SiVercel className="text-2xl" />
                                 <p>Vercel</p>
